@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc && copyfiles -u 1 ./data/**/*.json ./dist"
+    "build": "tsc && copyfiles ./data/products.json ./index.html ./dist"
   },
   "keywords": [],
   "author": "",
