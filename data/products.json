@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "nombre": "EA Sports FC 24",
+    "plataformas": ["PlayStation 5", "Xbox Series X/S"],
+    "precio": 69.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv1Ku2hOJNtasdTaWwqi2VVLuj5TK9Qop8Mg&s",
+    "descripcion": "El futuro del fútbol cobra vida con un realismo de nueva generación que te sumerge en cada partido."
+  },
+  {
+    "id": 2,
+    "nombre": "Starfield",
+    "plataformas": ["Xbox Series X/S"],
+    "precio": 79.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1716740/header.jpg",
+    "descripcion": "El nuevo universo de Bethesda Game Studios. Crea tu personaje y explora con una libertad sin precedentes mientras te embarcas en un viaje épico."
+  },
+  {
+    "id": 3,
+    "nombre": "Marvel's Spider-Man 2",
+    "plataformas": ["PlayStation 5"],
+    "precio": 69.99,
+    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/97e9f5fa6e50c185d249956c6f198a2652a9217e69a59ecd.jpg",
+    "descripcion": "Los Spider-Men Peter Parker y Miles Morales regresan en una nueva y emocionante aventura de la aclamada franquicia."
+  },
+  {
+    "id": 4,
+    "nombre": "Forza Motorsport",
+    "plataformas": ["Xbox Series X/S"],
+    "precio": 59.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/2440510/header.jpg",
+    "descripcion": "Compite en carreras con más de 500 coches del mundo real, incluidos coches de carreras modernos y 20 entornos con una física impresionante."
+  },
+  {
+    "id": 5,
+    "nombre": "Cyberpunk 2077: Phantom Liberty",
+    "plataformas": ["PlayStation 5", "Xbox Series X/S"],
+    "precio": 29.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/2138330/header.jpg",
+    "descripcion": "Phantom Liberty es una nueva aventura de suspense y espionaje para Cyberpunk 2077. Regresa como V y adéntrate en una trama de espionaje e intriga política."
+  },
+  {
+    "id": 6,
+    "nombre": "Baldur's Gate 3",
+    "plataformas": ["PlayStation 5"],
+    "precio": 59.99,
+    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1759825106",
+    "descripcion": "Reúne a tu grupo y vuelve a los Reinos Olvidados en un relato de compañerismo y traición, sacrificio y supervivencia, y la atracción del poder absoluto."
+  },
+  {
+    "id": 7,
+    "nombre": "Assassin's Creed Mirage",
+    "plataformas": ["PlayStation 5", "Xbox Series X/S"],
+    "precio": 49.99,
+    "imagen": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4jk9umchC6RomrmUMzJj4k/ae72f547328f84428d4b98a663bceec6/acm-page-meta-960x540.jpg",
+    "descripcion": "Vuelve a las raíces de la saga con una experiencia de sigilo y parkour ambientada en la Bagdad del siglo IX."
+  },
+  {
+    "id": 8,
+    "nombre": "Call of Duty: Modern Warfare III",
+    "plataformas": ["PlayStation 5", "Xbox Series X/S"],
+    "precio": 69.99,
+    "imagen": "https://i.blogs.es/b348c4/modern-warfare-3/500_333.jpeg",
+    "descripcion": "La guerra moderna continúa con intensas batallas, nuevos modos multijugador y una campaña épica que redefine el combate."
+  },
+  {
+    "id": 9,
+    "nombre": "The Legend of Zelda: Tears of the Kingdom",
+    "plataformas": ["Nintendo Switch"],
+    "precio": 69.99,
+    "imagen": "https://thesunflower.com/wp-content/uploads/2024/02/Tears-of-the-Kingdom-wallpaper-1170x720-1.jpg",
+    "descripcion": "Explora los vastos cielos y tierras de Hyrule en esta secuela del aclamado Breath of the Wild, con nuevas mecánicas de construcción y libertad total."
+  },
+  {
+    "id": 10,
+    "nombre": "Final Fantasy VII Rebirth",
+    "plataformas": ["PlayStation 5"],
+    "precio": 69.99,
+    "imagen": "https://cdn1.epicgames.com/offer/e9a679451d094c1ba3d008b6a01adec5/EGS_FINALFANTASYVIIREBIRTH_SquareEnix_S1_2560x1440-e254f978084058f898118dc49728d04c",
+    "descripcion": "La legendaria historia de Cloud y sus amigos continúa en la segunda parte del remake, con un mundo abierto y combates espectaculares."
+  },
+  {
+    "id": 11,
+    "nombre": "Hogwarts Legacy",
+    "plataformas": ["PlayStation 5", "Xbox Series X/S", "Nintendo Switch"],
+    "precio": 59.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg",
+    "descripcion": "Embárcate en una aventura mágica en el universo de Harry Potter ambientada en el siglo XIX. Crea tu propio mago y descubre secretos de Hogwarts."
+  },
+  {
+    "id": 12,
+    "nombre": "Elden Ring",
+    "plataformas": ["PlayStation 5", "Xbox Series X/S"],
+    "precio": 59.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg",
+    "descripcion": "Una épica aventura de mundo abierto creada por FromSoftware y George R.R. Martin, llena de misterios, desafíos y combates inolvidables."
+  },
+  {
+    "id": 13,
+    "nombre": "Resident Evil 4 Remake",
+    "plataformas": ["PlayStation 5", "Xbox Series X/S"],
+    "precio": 59.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/header.jpg",
+    "descripcion": "Revive el clásico de terror y acción con gráficos de nueva generación, una jugabilidad mejorada y una atmósfera aún más intensa."
+  },
+  {
+    "id": 14,
+    "nombre": "Alan Wake 2",
+    "plataformas": ["PlayStation 5", "Xbox Series X/S"],
+    "precio": 69.99,
+    "imagen": "https://cdn1.epicgames.com/offer/c4763f236d08423eb47b4c3008779c84/EGS_AlanWake2_RemedyEntertainment_S1_2560x1440-ec44404c0b41bc457cb94cd72cf85872",
+    "descripcion": "Una secuela oscura y atmosférica donde el terror psicológico y el misterio se combinan en una historia de supervivencia inolvidable."
+  },
+  {
+    "id": 15,
+    "nombre": "Lies of P",
+    "plataformas": ["PlayStation 5", "Xbox Series X/S"],
+    "precio": 59.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1627720/header.jpg",
+    "descripcion": "Un oscuro soulslike inspirado en la historia de Pinocho, donde cada decisión te acerca o aleja de la verdad en una ciudad dominada por la locura."
+  },
+  {
+    "id": 16,
+    "nombre": "Mortal Kombat 1",
+    "plataformas": ["PlayStation 5", "Xbox Series X/S"],
+    "precio": 69.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1971870/header.jpg",
+    "descripcion": "Reinventa el universo Mortal Kombat con un nuevo sistema de combate, personajes icónicos y los fatalities más brutales hasta la fecha."
+  },
+  {
+    "id": 17,
+    "nombre": "Helldivers 2",
+    "plataformas": ["PlayStation 5", "PC"],
+    "precio": 39.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/553850/header.jpg",
+    "descripcion": "Forma parte de la élite Helldivers y libra una guerra galáctica cooperativa en este shooter en tercera persona lleno de acción táctica y caos."
+  },
+  {
+    "id": 18,
+    "nombre": "Ghost of Tsushima: Director's Cut",
+    "plataformas": ["PlayStation 5", "PC"],
+    "precio": 59.99,
+    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0222/b3iB2zf2xHj9shC0XDTULxND.png",
+    "descripcion": "Explora la isla de Tsushima en esta épica aventura samurái de mundo abierto. Defiende tu tierra contra la invasión mongola con sigilo y honor."
+  },
+  {
+    "id": 19,
+    "nombre": "Super Mario Bros. Wonder",
+    "plataformas": ["Nintendo Switch"],
+    "precio": 59.99,
+    "imagen": "https://a.storyblok.com/f/178900/960x539/0f85e9bcc0/super-mario-bros-wonder-titre.jpg/m/filters:quality(95)format(webp)",
+    "descripcion": "Mario y sus amigos regresan en una nueva aventura 2D llena de creatividad, transformaciones únicas y mundos vibrantes."
+  },
+  {
+    "id": 20,
+    "nombre": "Metroid Prime Remastered",
+    "plataformas": ["Nintendo Switch"],
+    "precio": 39.99,
+    "imagen": "https://i.blogs.es/5056f7/metroid_prime_remastered/1366_2000.jpeg",
+    "descripcion": "Revive la legendaria aventura de Samus Aran con gráficos y controles modernizados en esta remasterización del clásico de GameCube."
+  },
+  {
+    "id": 21,
+    "nombre": "Pikmin 4",
+    "plataformas": ["Nintendo Switch"],
+    "precio": 59.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgFluA0ljj-BUs9Z4657jDFV5XLRJ5SyW9w&s",
+    "descripcion": "Lidera a los Pikmin en una encantadora aventura de exploración y estrategia en planetas misteriosos y llenos de vida."
+  },
+  {
+    "id": 22,
+    "nombre": "Mario Kart 8 Deluxe",
+    "plataformas": ["Nintendo Switch"],
+    "precio": 59.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_TVgZHAlpP36pWtx2GQeiC1QplPMuIEukhg&s",
+    "descripcion": "Corre con tus personajes favoritos de Nintendo en el juego de karts definitivo con circuitos clásicos y nuevos."
+  },
+  {
+    "id": 23,
+    "nombre": "Animal Crossing: New Horizons",
+    "plataformas": ["Nintendo Switch"],
+    "precio": 59.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHnVYJbW5jyUCiCRR345DjC-USRb-BpkZ0VA&s",
+    "descripcion": "Crea tu isla paradisíaca, construye tu hogar y disfruta de una vida tranquila junto a tus vecinos animales favoritos."
+  },
+  {
+    "id": 24,
+    "nombre": "Splatoon 3",
+    "plataformas": ["Nintendo Switch"],
+    "precio": 59.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz1nLcTi9qATRe4dpn8GqpSJe6AL53yHq3Ig&s",
+    "descripcion": "Pinta el campo de batalla y derrota a tus rivales en este colorido shooter multijugador lleno de estilo y diversión."
+  },
+  {
+    "id": 25,
+    "nombre": "Halo Infinite",
+    "plataformas": ["Xbox Series X/S"],
+    "precio": 59.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1240440/header.jpg",
+    "descripcion": "El Jefe Maestro regresa para enfrentarse al enemigo más letal de la humanidad en una campaña épica con multijugador gratuito."
+  },
+  {
+    "id": 26,
+    "nombre": "Fable (2025)",
+    "plataformas": ["Xbox Series X/S"],
+    "precio": 69.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEI8cODRuV_Ov2G8AJ-sPsFxsBVcCU1VYjQQ&s",
+    "descripcion": "Un nuevo comienzo para la saga de rol británica. Descubre un mundo lleno de humor, magia y consecuencias en cada decisión."
+  },
+  {
+    "id": 27,
+    "nombre": "Avowed",
+    "plataformas": ["Xbox Series X/S"],
+    "precio": 69.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMsEq7dVkos2HgObs67Nw7dVbG2xaYke3ChA&s",
+    "descripcion": "De los creadores de The Outer Worlds llega una épica aventura RPG ambientada en el universo de Eora con combates mágicos en primera persona."
+  },
+  {
+    "id": 28,
+    "nombre": "Gears 5",
+    "plataformas": ["Xbox Series X/S"],
+    "precio": 39.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1097840/header.jpg",
+    "descripcion": "Vive una historia intensa de guerra y redención en uno de los shooters más emblemáticos de Xbox, ahora optimizado para Series X/S."
+  },
+  {
+    "id": 29,
+    "nombre": "Sea of Thieves",
+    "plataformas": ["Xbox Series X/S", "PC"],
+    "precio": 39.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg",
+    "descripcion": "Conviértete en un auténtico pirata en este juego de mundo compartido lleno de aventuras, tesoros, monstruos marinos y diversión en equipo."
+  },
+  {
+    "id": 30,
+    "nombre": "Xenoblade Chronicles 3",
+    "plataformas": ["Nintendo Switch"],
+    "precio": 59.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0FcfhJuulVGdy1IJqoHns-z85MFuoYsaa8Q&s",
+    "descripcion": "Una épica historia de dos naciones en guerra en un mundo vasto y bello, con un sistema de combate profundo y emotivo."
+  },
+  {
+    "id": 31,
+    "nombre": "Bayonetta 3",
+    "plataformas": ["Nintendo Switch"],
+    "precio": 59.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB7PEVifSuWKzxacXWHYiit1ykAQn-D-iWDQ&s",
+    "descripcion": "La bruja de Umbra regresa con nuevas habilidades y combates espectaculares en un viaje interdimensional lleno de acción estilizada."
+  },
+  {
+    "id": 32,
+    "nombre": "Senua’s Saga: Hellblade II",
+    "plataformas": ["Xbox Series X/S", "PC"],
+    "precio": 59.99,
+    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/2461850/header.jpg",
+    "descripcion": "Acompaña a Senua en una nueva travesía emocional y brutal ambientada en la Islandia vikinga, con una narrativa intensa y visuales impresionantes."
+  }
+]

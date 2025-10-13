@@ -1,0 +1,53 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // File Layout
+    // "rootDir": "./src",
+    // "outDir": "./dist",
+
+    // Environment Settings
+    // See also https://aka.ms/tsconfig/module
+    "types": [],
+    "target": "ES2022", // Compila a una versión moderna de JavaScript
+    "lib": ["ES2022", "DOM", "DOM.Iterable"], // Incluye librerías para el navegador (DOM)
+    "esModuleInterop": true, // Mejora la interoperabilidad entre módulos
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, // Activa todas las comprobaciones estrictas
+    "skipLibCheck": true,
+    // For nodejs:
+    // "lib": ["esnext"],
+    // "types": ["node"],
+    // and npm install -D @types/node
+
+    "module": "ESNext", // Le dice a TypeScript que genere sintaxis de módulo moderna
+    "moduleResolution": "Bundler", // El modo más moderno para resolver módulos
+    "verbatimModuleSyntax": true,
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Style Options
+    // "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "noPropertyAccessFromIndexSignature": true,
+
+    "outDir": "./dist", // Guarda los archivos .js compilados en una carpeta 'dist'
+    "rootDir": "./src",
+
+    // Recommended Options
+    "jsx": "react-jsx",
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force"
+  },
+  "include": ["src"]
+}

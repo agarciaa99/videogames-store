@@ -1,0 +1,17 @@
+{
+  "name": "digital-games-store",
+  "version": "1.0.0",
+  "description": "Una tienda de videojuegos digitales creada con TypeScript.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && copyfiles -u 1 ./data/**/*.json ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+
+# Carpeta de salida de la compilación
+dist
+
+# Archivos de sistema operativo y editor
+.DS_Store
+.vscode/
