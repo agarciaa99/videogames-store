@@ -10,7 +10,7 @@ function createCartItemHTML(item: CartItem): string {
   return `
         <div class="flex justify-between items-center p-2 bg-gray-800 rounded mb-2">
             <div class="flex items-center">
-                <img src="${item.producto.imagen}" alt="${item.producto.nombre}" class="w-12 h-12 object-cover rounded mr-4">
+                <img src="${item.producto.imagenes}" alt="${item.producto.nombre}" class="w-12 h-12 object-cover rounded mr-4">
                 <div>
                     <p class="font-bold text-white">${item.producto.nombre}</p>
                     <p class="text-sm text-gray-400">${item.plataforma}</p>

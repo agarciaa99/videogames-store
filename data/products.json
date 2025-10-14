@@ -4,7 +4,11 @@
     "nombre": "EA Sports FC 24",
     "plataformas": ["PlayStation 5", "Xbox Series X/S"],
     "precio": 69.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv1Ku2hOJNtasdTaWwqi2VVLuj5TK9Qop8Mg&s",
+    "imagenes": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZJgKDrX4NkCO8MHC3Qb2fOOqvS6O69yU1Nw&s",
+      "https://i.blogs.es/05069e/1366_2000-17-/840_560.jpeg",
+      "https://media.es.wired.com/photos/6516fd2a752ba4fe7a9d8739/16:9/w_2560%2Cc_limit/EA-FC-Is-Just-FIFA-Culture.jpg"
+    ],
     "descripcion": "El futuro del fútbol cobra vida con un realismo de nueva generación que te sumerge en cada partido."
   },
   {
@@ -12,7 +16,11 @@
     "nombre": "Starfield",
     "plataformas": ["Xbox Series X/S"],
     "precio": 79.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1716740/header.jpg",
+    "imagenes": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHz3pIch7W8j8IZAmAjApSrfqCdJ5_lIHoHQ&s",
+      "https://cdn.mos.cms.futurecdn.net/RT47jcRTS4Xq5jm3s2DrtF.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3UX7vdMWsgsmgsejYWS0U3zF3dWqtA-xExg&s"
+    ],
     "descripcion": "El nuevo universo de Bethesda Game Studios. Crea tu personaje y explora con una libertad sin precedentes mientras te embarcas en un viaje épico."
   },
   {
@@ -20,7 +28,11 @@
     "nombre": "Marvel's Spider-Man 2",
     "plataformas": ["PlayStation 5"],
     "precio": 69.99,
-    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/97e9f5fa6e50c185d249956c6f198a2652a9217e69a59ecd.jpg",
+    "imagenes": [
+      "https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/97e9f5fa6e50c185d249956c6f198a2652a9217e69a59ecd.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_653895-MLA92977976381_092025-O.webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWucDWGxJAaFBKN3qqgRToLBG_IBjk1Mtvew&s"
+    ],
     "descripcion": "Los Spider-Men Peter Parker y Miles Morales regresan en una nueva y emocionante aventura de la aclamada franquicia."
   },
   {
@@ -28,7 +40,11 @@
     "nombre": "Forza Motorsport",
     "plataformas": ["Xbox Series X/S"],
     "precio": 59.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/2440510/header.jpg",
+    "imagenes": [
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2440510/capsule_616x353.jpg?t=1747073895",
+      "https://cdn.forza.net/strapi-uploads/assets/Forza_Motorsport_Review_Press_Kit_08_16x9_WM_bb4606db25.jpg",
+      "https://www.nascar.com/wp-content/uploads/sites/7/2024/11/06/ForzaMotorsport-FOR_00_NASCAR_24-Sunset_Peninsula-ShowcaseSeries-01-16x9_WM.jpg"
+    ],
     "descripcion": "Compite en carreras con más de 500 coches del mundo real, incluidos coches de carreras modernos y 20 entornos con una física impresionante."
   },
   {
@@ -36,7 +52,11 @@
     "nombre": "Cyberpunk 2077: Phantom Liberty",
     "plataformas": ["PlayStation 5", "Xbox Series X/S"],
     "precio": 29.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/2138330/header.jpg",
+    "imagenes": [
+      "https://image.api.playstation.com/vulcan/ap/rnd/202306/0116/d422957079819aae9a9c79fd465e91ed0b5883f217d3c7d7.jpg",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138330/ss_3ab6296c6827b4f2fd825f52be317b748ccce079.1920x1080.jpg?t=1759751039",
+      "https://cdn.mos.cms.futurecdn.net/RLNLv3P9PKpz6JsjFmPTJ7-1200-80.jpg"
+    ],
     "descripcion": "Phantom Liberty es una nueva aventura de suspense y espionaje para Cyberpunk 2077. Regresa como V y adéntrate en una trama de espionaje e intriga política."
   },
   {
@@ -44,7 +64,11 @@
     "nombre": "Baldur's Gate 3",
     "plataformas": ["PlayStation 5"],
     "precio": 59.99,
-    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1759825106",
+    "imagenes": [
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1759825106",
+      "https://assetsio.gnwcdn.com/SHADOWHEART.png?width=690&quality=80&format=jpg&dpr=3&auto=webp",
+      "https://a.storyblok.com/f/122726/768x450/7d677f334e/baldursgate-event-thumbnail.jpg/m/768x432"
+    ],
     "descripcion": "Reúne a tu grupo y vuelve a los Reinos Olvidados en un relato de compañerismo y traición, sacrificio y supervivencia, y la atracción del poder absoluto."
   },
   {
@@ -52,7 +76,11 @@
     "nombre": "Assassin's Creed Mirage",
     "plataformas": ["PlayStation 5", "Xbox Series X/S"],
     "precio": 49.99,
-    "imagen": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4jk9umchC6RomrmUMzJj4k/ae72f547328f84428d4b98a663bceec6/acm-page-meta-960x540.jpg",
+    "imagenes": [
+      "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4jk9umchC6RomrmUMzJj4k/ae72f547328f84428d4b98a663bceec6/acm-page-meta-960x540.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1HX9yetrcbtU9Rg6Ij_c1j1QlSltTmh9zPQ&s",
+      "https://img.redbull.com/images/c_crop,w_3840,h_1920,x_0,y_0/c_auto,w_1200,h_630/f_auto,q_auto/redbullcom/2023/10/4/ubqq5vojxnj99ildotn4/assassins-creed-mirage-analisis"
+    ],
     "descripcion": "Vuelve a las raíces de la saga con una experiencia de sigilo y parkour ambientada en la Bagdad del siglo IX."
   },
   {
@@ -60,7 +88,11 @@
     "nombre": "Call of Duty: Modern Warfare III",
     "plataformas": ["PlayStation 5", "Xbox Series X/S"],
     "precio": 69.99,
-    "imagen": "https://i.blogs.es/b348c4/modern-warfare-3/500_333.jpeg",
+    "imagenes": [
+      "https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltd6fa384b60ff3fbd/64cc2fe367e57a3aa2cec653/Jupiter_Coming_Soon-Bnet_Game-Content_UI_(Phoenix)-EN-1920x1080_textless.jpg",
+      "https://cdn-3.expansion.mx/dims4/default/ee1a937/2147483647/resize/1280x/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F41%2F9a%2F6f1428fe45848f65936691966490%2Fcall-of-duty-modern-warfare-3-detalles.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOAFv-drw6QdnYMqx3kpuiMpabqz0uWYm8QQ&s"
+    ],
     "descripcion": "La guerra moderna continúa con intensas batallas, nuevos modos multijugador y una campaña épica que redefine el combate."
   },
   {
@@ -68,7 +100,11 @@
     "nombre": "The Legend of Zelda: Tears of the Kingdom",
     "plataformas": ["Nintendo Switch"],
     "precio": 69.99,
-    "imagen": "https://thesunflower.com/wp-content/uploads/2024/02/Tears-of-the-Kingdom-wallpaper-1170x720-1.jpg",
+    "imagenes": [
+      "https://www.qualbert.com/wp-content/uploads/2023/06/Tears-of-the-Kingdom-wallpaper-1170x720.jpg",
+      "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24424100/Switch_TLOZ_TOTK_Screen_14.jpg?w=1600&h=900&fit=crop",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTuY3qFOOwiNaGRpmHfUzRTpC-Qlx19GFaAg&s"
+    ],
     "descripcion": "Explora los vastos cielos y tierras de Hyrule en esta secuela del aclamado Breath of the Wild, con nuevas mecánicas de construcción y libertad total."
   },
   {
@@ -76,7 +112,11 @@
     "nombre": "Final Fantasy VII Rebirth",
     "plataformas": ["PlayStation 5"],
     "precio": 69.99,
-    "imagen": "https://cdn1.epicgames.com/offer/e9a679451d094c1ba3d008b6a01adec5/EGS_FINALFANTASYVIIREBIRTH_SquareEnix_S1_2560x1440-e254f978084058f898118dc49728d04c",
+    "imagenes": [
+      "https://cdn1.epicgames.com/offer/e9a679451d094c1ba3d008b6a01adec5/EGS_FINALFANTASYVIIREBIRTH_SquareEnix_S1_2560x1440-e254f978084058f898118dc49728d04c",
+      "https://blog.playstation.com/tachyon/2024/02/f1ace42d936efef89c8cd4556fad5efb2741da75-scaled.jpeg?resize=1088%2C612&crop_strategy=smart",
+      "https://gaming-cdn.com/images/news/articles/10196/cover/square-enix-details-the-graphics-presets-of-final-fantasy-vii-rebirth-on-pc-cover67892c8f4f7fd.jpg"
+    ],
     "descripcion": "La legendaria historia de Cloud y sus amigos continúa en la segunda parte del remake, con un mundo abierto y combates espectaculares."
   },
   {
@@ -84,7 +124,11 @@
     "nombre": "Hogwarts Legacy",
     "plataformas": ["PlayStation 5", "Xbox Series X/S", "Nintendo Switch"],
     "precio": 59.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg",
+    "imagenes": [
+      "https://i.blogs.es/a32fa7/hogwarts-legacy-analisis/1366_2000.jpeg",
+      "https://i.blogs.es/12c3fe/wb4qjwbmzj2mkjojc5yadj-970-80/650_1200.jpg",
+      "https://alfabetajuega.com/hero/2023/02/hogwarts-principiante.jpeg?width=768&aspect_ratio=16:9&format=nowebp"
+    ],
     "descripcion": "Embárcate en una aventura mágica en el universo de Harry Potter ambientada en el siglo XIX. Crea tu propio mago y descubre secretos de Hogwarts."
   },
   {
@@ -92,7 +136,11 @@
     "nombre": "Elden Ring",
     "plataformas": ["PlayStation 5", "Xbox Series X/S"],
     "precio": 59.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg",
+    "imagenes": [
+      "https://cdn.cgmagonline.com/wp-content/uploads/2022/02/game-reviews-elden-ring-pc-review-1200x675.jpg",
+      "https://cdn.mos.cms.futurecdn.net/ckpbJfmNhTHjRY6S7fdzeE-1200-80.jpg",
+      "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23263763/ELDENRING_21_25120461292d8e6256c8.10110654.jpg?quality=90&strip=all&crop=15.625,0,84.375,100"
+    ],
     "descripcion": "Una épica aventura de mundo abierto creada por FromSoftware y George R.R. Martin, llena de misterios, desafíos y combates inolvidables."
   },
   {
@@ -100,7 +148,11 @@
     "nombre": "Resident Evil 4 Remake",
     "plataformas": ["PlayStation 5", "Xbox Series X/S"],
     "precio": 59.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/header.jpg",
+    "imagenes": [
+      "https://image.api.playstation.com/vulcan/ap/rnd/202401/2906/df8c296e89570961418f21078c1f2a347e1919c334f38ace.jpg",
+      "https://www.gamebyte.com/wp-content/uploads/2023/03/65abf21f-resident-evil-4-remake-preview.jpg",
+      "https://www.digitaltrends.com/wp-content/uploads/2023/03/resident-evil-4-remake-garrador.jpg?resize=1200%2C630&p=1"
+    ],
     "descripcion": "Revive el clásico de terror y acción con gráficos de nueva generación, una jugabilidad mejorada y una atmósfera aún más intensa."
   },
   {
@@ -108,7 +160,11 @@
     "nombre": "Alan Wake 2",
     "plataformas": ["PlayStation 5", "Xbox Series X/S"],
     "precio": 69.99,
-    "imagen": "https://cdn1.epicgames.com/offer/c4763f236d08423eb47b4c3008779c84/EGS_AlanWake2_RemedyEntertainment_S1_2560x1440-ec44404c0b41bc457cb94cd72cf85872",
+    "imagenes": [
+      "https://cdn1.epicgames.com/offer/c4763f236d08423eb47b4c3008779c84/EGS_AlanWake2_RemedyEntertainment_S1_2560x1440-ec44404c0b41bc457cb94cd72cf85872",
+      "https://www.psu.com/wp/wp-content/uploads/2023/08/AlanWake2-1-copy-min.jpg",
+      "https://sm.ign.com/ign_es/news/r/remedy-pro/remedy-provides-updates-on-alan-wake-2-its-control-spin-off_uatk.jpg"
+    ],
     "descripcion": "Una secuela oscura y atmosférica donde el terror psicológico y el misterio se combinan en una historia de supervivencia inolvidable."
   },
   {
@@ -116,7 +172,11 @@
     "nombre": "Lies of P",
     "plataformas": ["PlayStation 5", "Xbox Series X/S"],
     "precio": 59.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1627720/header.jpg",
+    "imagenes": [
+      "https://image.api.playstation.com/vulcan/ap/rnd/202305/2308/d946b9bae05aad7d8b289a9bcee0fb9fd215090b85d34540.png",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1627720/ss_26772232e759f37d0841d054cf30604fe4bba434.1920x1080.jpg?t=1754552654",
+      "https://articles-img.sftcdn.net/t_article_cover_xl/auto-mapping-folder/sites/2/2025/05/lies-of-p-overture-dificultad.jpg"
+    ],
     "descripcion": "Un oscuro soulslike inspirado en la historia de Pinocho, donde cada decisión te acerca o aleja de la verdad en una ciudad dominada por la locura."
   },
   {
@@ -124,7 +184,11 @@
     "nombre": "Mortal Kombat 1",
     "plataformas": ["PlayStation 5", "Xbox Series X/S"],
     "precio": 69.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1971870/header.jpg",
+    "imagenes": [
+      "https://images.ctfassets.net/w5r1fvmogo3f/4X16fTJ7xVgJ69rgByrGvZ/c46df66edc55903d0bb5ff14b744eff2/mortal-kombat-1-header_30779df23bcd4604ad71c2a65a32d4bf.webp",
+      "https://cdn-mk1.mortalkombat.com/media/kombat-pack.jpg",
+      "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1971870/ss_18eadd6859ed15531d25cd67fe1d2402e9bf75b3.1920x1080.jpg?t=1750176505"
+    ],
     "descripcion": "Reinventa el universo Mortal Kombat con un nuevo sistema de combate, personajes icónicos y los fatalities más brutales hasta la fecha."
   },
   {
@@ -132,7 +196,11 @@
     "nombre": "Helldivers 2",
     "plataformas": ["PlayStation 5", "PC"],
     "precio": 39.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/553850/header.jpg",
+    "imagenes": [
+      "https://cdn-sw.spidersweb.pl/2024/02/Helldivers-2-recenzja.webp",
+      "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltea62fd7f6fc0f225/65c663865f6589040ae7152e/helldivers2.png?width=1280&auto=webp&quality=80&format=jpg&disable=upscale",
+      "https://articles-img.sftcdn.net/t_article_cover_xl/auto-mapping-folder/sites/2/2024/04/Helldivers-2-victoria.jpg"
+    ],
     "descripcion": "Forma parte de la élite Helldivers y libra una guerra galáctica cooperativa en este shooter en tercera persona lleno de acción táctica y caos."
   },
   {
@@ -140,7 +208,11 @@
     "nombre": "Ghost of Tsushima: Director's Cut",
     "plataformas": ["PlayStation 5", "PC"],
     "precio": 59.99,
-    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0222/b3iB2zf2xHj9shC0XDTULxND.png",
+    "imagenes": [
+      "https://image.api.playstation.com/vulcan/ap/rnd/202106/2322/ZSrFeb6XkqKiq2PZKWg20yfe.jpg",
+      "https://cdn.mos.cms.futurecdn.net/a6AbJzCQ7fujWzv3nKXYLQ.jpg",
+      "https://sm.ign.com/ign_latam/news/g/ghost-of-t/ghost-of-tsushima-directors-cut-and-iki-island-expansion-ann_gtfa.jpg"
+    ],
     "descripcion": "Explora la isla de Tsushima en esta épica aventura samurái de mundo abierto. Defiende tu tierra contra la invasión mongola con sigilo y honor."
   },
   {
@@ -148,7 +220,11 @@
     "nombre": "Super Mario Bros. Wonder",
     "plataformas": ["Nintendo Switch"],
     "precio": 59.99,
-    "imagen": "https://a.storyblok.com/f/178900/960x539/0f85e9bcc0/super-mario-bros-wonder-titre.jpg/m/filters:quality(95)format(webp)",
+    "imagenes": [
+      "https://www.qualbert.com/wp-content/uploads/2023/10/Super-Mario-Bros-Wonder-4-splash-2-1170x720.jpg",
+      "https://www.godisageek.com/wp-content/uploads/Super-Mario-Bros-Wonder-map.jpg",
+      "https://media.gamestop.com/i/gamestop/20006717_SCR07/super%20mario%20wonder.webp"
+    ],
     "descripcion": "Mario y sus amigos regresan en una nueva aventura 2D llena de creatividad, transformaciones únicas y mundos vibrantes."
   },
   {
@@ -156,7 +232,11 @@
     "nombre": "Metroid Prime Remastered",
     "plataformas": ["Nintendo Switch"],
     "precio": 39.99,
-    "imagen": "https://i.blogs.es/5056f7/metroid_prime_remastered/1366_2000.jpeg",
+    "imagenes": [
+      "https://i.blogs.es/5056f7/metroid_prime_remastered/1366_2000.jpeg",
+      "https://www.stuff.tv/wp-content/uploads/sites/2/2023/02/Metroid-Prime-remastered-lead.jpg?quality=75&w=1080",
+      "https://assetsio.gnwcdn.com/Metroid-Site_7SCqSnv.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp"
+    ],
     "descripcion": "Revive la legendaria aventura de Samus Aran con gráficos y controles modernizados en esta remasterización del clásico de GameCube."
   },
   {
@@ -164,7 +244,11 @@
     "nombre": "Pikmin 4",
     "plataformas": ["Nintendo Switch"],
     "precio": 59.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgFluA0ljj-BUs9Z4657jDFV5XLRJ5SyW9w&s",
+    "imagenes": [
+      "https://www.glitched.online/wp-content/uploads/2023/07/pikmin4-big_thumb.jpg",
+      "https://sm.ign.com/t/ign_ap/review/p/pikmin-4-r/pikmin-4-review_fyrh.1200.jpg",
+      "https://nintendoeverything.com/wp-content/uploads/Pikmin-4-First-Expedition.jpg"
+    ],
     "descripcion": "Lidera a los Pikmin en una encantadora aventura de exploración y estrategia en planetas misteriosos y llenos de vida."
   },
   {
@@ -172,7 +256,11 @@
     "nombre": "Mario Kart 8 Deluxe",
     "plataformas": ["Nintendo Switch"],
     "precio": 59.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_TVgZHAlpP36pWtx2GQeiC1QplPMuIEukhg&s",
+    "imagenes": [
+      "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000153/de697f487a36d802dd9a5ff0341f717c8486221f2f1219b675af37aca63bc453",
+      "https://media.gq-magazine.co.uk/photos/5d139ef57fcc8ee44b8204e3/16:9/w_2560%2Cc_limit/Mario-Kart-8-Deluxe-01-GQ-20Apr17_Nintendo_b.jpg",
+      "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/07/mario-kart-8-deluxe-dlc-3083148.jpg?tf=3840x"
+    ],
     "descripcion": "Corre con tus personajes favoritos de Nintendo en el juego de karts definitivo con circuitos clásicos y nuevos."
   },
   {
@@ -180,7 +268,11 @@
     "nombre": "Animal Crossing: New Horizons",
     "plataformas": ["Nintendo Switch"],
     "precio": 59.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHnVYJbW5jyUCiCRR345DjC-USRb-BpkZ0VA&s",
+    "imagenes": [
+      "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/184A9/production/_110979499__98467350_animalcrossing.jpg",
+      "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/19732506/Switch_ACNH_0220_Direct_Advanced_SCRN_08_copy.jpg?quality=90&strip=all&crop=0,3.4613147178592,100,93.077370564282",
+      "https://media.gamestop.com/i/gamestop/10168434_SCR02/Animal-Crossing-New-Horizons---Nintendo-Switch?w=1256&h=664&fmt=auto"
+    ],
     "descripcion": "Crea tu isla paradisíaca, construye tu hogar y disfruta de una vida tranquila junto a tus vecinos animales favoritos."
   },
   {
@@ -188,7 +280,11 @@
     "nombre": "Splatoon 3",
     "plataformas": ["Nintendo Switch"],
     "precio": 59.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz1nLcTi9qATRe4dpn8GqpSJe6AL53yHq3Ig&s",
+    "imagenes": [
+      "https://www.switchaboo.com/content/images/2022/11/S3.jpg",
+      "https://m.media-amazon.com/images/I/712Zf7v1iXL._UF1000,1000_QL80_.jpg",
+      "https://img2-levelup.buscafs.com/870800/870800.png"
+    ],
     "descripcion": "Pinta el campo de batalla y derrota a tus rivales en este colorido shooter multijugador lleno de estilo y diversión."
   },
   {
@@ -196,7 +292,11 @@
     "nombre": "Halo Infinite",
     "plataformas": ["Xbox Series X/S"],
     "precio": 59.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1240440/header.jpg",
+    "imagenes": [
+      "https://wallpapercave.com/wp/wp4813418.png",
+      "https://wpassets.halowaypoint.com/wp-content/2021/11/Halo_Infinite_Multiplayer_S1_KeyArt_1920x1080_Clean.jpg",
+      "https://www.digipen.edu/sites/default/files/public/img/news/04-social/meet-many-dragons-helped-forge-halo-infinite-og.jpg"
+    ],
     "descripcion": "El Jefe Maestro regresa para enfrentarse al enemigo más letal de la humanidad en una campaña épica con multijugador gratuito."
   },
   {
@@ -204,7 +304,11 @@
     "nombre": "Fable (2025)",
     "plataformas": ["Xbox Series X/S"],
     "precio": 69.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEI8cODRuV_Ov2G8AJ-sPsFxsBVcCU1VYjQQ&s",
+    "imagenes": [
+      "https://assetsio.gnwcdn.com/fable-reboot-title_3PLbIcW.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+      "https://techraptor.net/sites/default/files/2024-06/fable-2025-game.jpg",
+      "https://gaming-cdn.com/images/news/articles/4876/cover/1000x563/playground-games-may-aim-for-a-2025-release-date-for-fable-cover65d27a326f630.jpg"
+    ],
     "descripcion": "Un nuevo comienzo para la saga de rol británica. Descubre un mundo lleno de humor, magia y consecuencias en cada decisión."
   },
   {
@@ -212,7 +316,11 @@
     "nombre": "Avowed",
     "plataformas": ["Xbox Series X/S"],
     "precio": 69.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMsEq7dVkos2HgObs67Nw7dVbG2xaYke3ChA&s",
+    "imagenes": [
+      "https://generacionxbox.com/wp-content/uploads/2024/01/avowed-new-generacion-xbox.jpg",
+      "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2025/02/avowed-4291200.jpg?tf=3840x",
+      "https://sm.ign.com/t/ign_ap/feature/a/avowed-has/avowed-has-big-skyrim-stealth-archer-potential_utcz.1200.jpg"
+    ],
     "descripcion": "De los creadores de The Outer Worlds llega una épica aventura RPG ambientada en el universo de Eora con combates mágicos en primera persona."
   },
   {
@@ -220,7 +328,11 @@
     "nombre": "Gears 5",
     "plataformas": ["Xbox Series X/S"],
     "precio": 39.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1097840/header.jpg",
+    "imagenes": [
+      "https://cdn.gearsofwar.com/gearsofwar/sites/2/2024/05/Gears5_thumbnail-664e4051d0100.png",
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Gears_5_Hivebuster_Squad.png",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097840/ss_2dcba41c6f051b76f8843bc45e1c7249e63bdc49.1920x1080.jpg?t=1684425784"
+    ],
     "descripcion": "Vive una historia intensa de guerra y redención en uno de los shooters más emblemáticos de Xbox, ahora optimizado para Series X/S."
   },
   {
@@ -228,7 +340,11 @@
     "nombre": "Sea of Thieves",
     "plataformas": ["Xbox Series X/S", "PC"],
     "precio": 39.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg",
+    "imagenes": [
+      "https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt0fbcd361d23ca879/67c25cce5f3ea1e1c417c14e/shop_family_browsing_card_premium_edition.webp?imwidth=1920&imdensity=2.625",
+      "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/03/sea-thieves_0.jpg?tf=3840x",
+      "https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/b/b3/Ss1.jpg/revision/latest?cb=20150624221232"
+    ],
     "descripcion": "Conviértete en un auténtico pirata en este juego de mundo compartido lleno de aventuras, tesoros, monstruos marinos y diversión en equipo."
   },
   {
@@ -236,7 +352,11 @@
     "nombre": "Xenoblade Chronicles 3",
     "plataformas": ["Nintendo Switch"],
     "precio": 59.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0FcfhJuulVGdy1IJqoHns-z85MFuoYsaa8Q&s",
+    "imagenes": [
+      "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000053336/e933b48650b33b355e9cf2583da5c94b77180e40fb02d050041083dd62f4df39",
+      "https://www.godisageek.com/wp-content/uploads/Xenoblade-Chronicles-3-review.jpg",
+      "https://media.gq.com.mx/photos/62f2a29dedeae89b4c58574b/16:9/w_2560%2Cc_limit/xenoblade%2520chronicles%25203.jpg"
+    ],
     "descripcion": "Una épica historia de dos naciones en guerra en un mundo vasto y bello, con un sistema de combate profundo y emotivo."
   },
   {
@@ -244,7 +364,11 @@
     "nombre": "Bayonetta 3",
     "plataformas": ["Nintendo Switch"],
     "precio": 59.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB7PEVifSuWKzxacXWHYiit1ykAQn-D-iWDQ&s",
+    "imagenes": [
+      "https://expansivedlc.com/wp-content/uploads/2022/11/Bayonetta-3-HD-scaled-1.jpg",
+      "https://assetsio.gnwcdn.com/Bayo3-Site.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+      "https://sm.ign.com/ign_latam/gallery/b/bayonetta-/bayonetta-3-release-screens_j6bb.jpg"
+    ],
     "descripcion": "La bruja de Umbra regresa con nuevas habilidades y combates espectaculares en un viaje interdimensional lleno de acción estilizada."
   },
   {
@@ -252,7 +376,11 @@
     "nombre": "Senua’s Saga: Hellblade II",
     "plataformas": ["Xbox Series X/S", "PC"],
     "precio": 59.99,
-    "imagen": "https://cdn.akamai.steamstatic.com/steam/apps/2461850/header.jpg",
+    "imagenes": [
+      "https://xboxwire.thesourcemediaassets.com/sites/4/SenuaHero-f9abfb6619c86030c81c-51e4c254ba168e830a28.jpg",
+      "https://www.cgmagonline.com/wp-content/uploads/2024/05/senuas-saga-hellblade-2-review-2024-05-20_11-09-41_191554.jpg",
+      "https://techraptor.net/sites/default/files/styles/1920_1080/public/2024-05/senuas-saga-hellblade-2-launch-timings-header.jpg?itok=LAt013-q"
+    ],
     "descripcion": "Acompaña a Senua en una nueva travesía emocional y brutal ambientada en la Islandia vikinga, con una narrativa intensa y visuales impresionantes."
   }
 ]
