@@ -3,10 +3,7 @@ import type { Cart } from "../store/cart.js";
 import type { Auth } from "../store/auth.js";
 import type { CartItem } from "../types/interfaces.js";
 
-// Todas las constantes que buscan elementos del DOM se eliminan de aquí.
-
 function createCartItemHTML(item: CartItem): string {
-  // Esta función no necesita cambios
   return `
         <div class="flex justify-between items-center p-2 bg-gray-800 rounded mb-2">
             <div class="flex items-center">
@@ -27,7 +24,6 @@ function createCartItemHTML(item: CartItem): string {
 }
 
 export function renderCart(cart: Cart, auth: Auth): void {
-  // Movemos todas las declaraciones aquí adentro.
   const cartContainer = document.getElementById("cart-items") as HTMLDivElement;
   const cartTotalEl = document.getElementById("cart-total") as HTMLSpanElement;
   const cartCountBadge = document.getElementById(
@@ -47,7 +43,6 @@ export function renderCart(cart: Cart, auth: Auth): void {
     "mobile-user-actions"
   ) as HTMLDivElement;
 
-  // Es una buena práctica verificar que todos los elementos se encontraron
   if (
     !cartContainer ||
     !cartTotalEl ||

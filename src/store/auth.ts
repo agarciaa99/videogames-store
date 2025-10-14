@@ -5,7 +5,6 @@ export class Auth {
   private currentUser: Usuario | null = null;
 
   constructor() {
-    // Cargar usuarios y sesión desde localStorage
     const storedUsers = localStorage.getItem("app_users");
     const storedSession = localStorage.getItem("current_user");
     if (storedUsers) this.users = JSON.parse(storedUsers);
@@ -20,26 +19,33 @@ export class Auth {
     localStorage.setItem("current_user", JSON.stringify(this.currentUser));
   }
 
-  register(nombre: string, email: string): boolean {
+  register(nombre: string, email: string, password: string): boolean {
     if (this.users.some((user) => user.email === email)) {
       alert("El correo ya está registrado.");
       return false;
     }
-    const newUser: Usuario = { id: Date.now(), nombre, email };
+    const newUser: Usuario = { id: Date.now(), nombre, email, password };
     this.users.push(newUser);
     this.saveUsers();
     alert("Registro exitoso. Ahora puedes iniciar sesión.");
     return true;
   }
 
-  login(email: string): boolean {
-    const user = this.users.find((user) => user.email === email);
+  login(email: string, password: string): boolean {
+    const user = this.users.find(
+      (user) => user.email === email && user.password === password
+    );
+
     if (user) {
-      this.currentUser = user;
+      this.currentUser = {
+        id: user.id,
+        nombre: user.nombre,
+        email: user.email,
+      };
       this.saveSession();
       return true;
     }
-    alert("Usuario no encontrado.");
+    alert("Correo o contraseña incorrectos.");
     return false;
   }
 

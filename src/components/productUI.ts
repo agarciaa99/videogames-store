@@ -11,7 +11,7 @@ function createProductCard(producto: Producto): string {
         }" class="product-card bg-gray-800 rounded-lg shadow-lg overflow-hidden cursor-pointer transition-transform transform hover:scale-105">
             <img src="${producto.imagenes[0]}" alt="${
     producto.nombre
-  }" class="w-full h-48 object-cover pointer-events-none">
+  }" loading="lazy" class="w-full h-48 object-cover pointer-events-none">
             <div class="p-4 pointer-events-none">
                 <h3 class="text-xl font-bold text-white">${producto.nombre}</h3>
                 <p class="text-gray-400">${producto.plataformas.join(", ")}</p>

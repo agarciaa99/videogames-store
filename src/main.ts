@@ -6,12 +6,10 @@ import { Cart } from "./store/cart.js";
 import { Auth } from "./store/auth.js";
 import type { Producto } from "./types/interfaces.js";
 
-// --- Inicialización ---
 const cart = new Cart();
 const auth = new Auth();
 let productCatalog: Producto[] = [];
 
-// --- Funciones del App ---
 async function initApp() {
   productCatalog = await fetchProducts();
   renderProducts(productCatalog);
@@ -22,14 +20,10 @@ function updateUI() {
   renderCart(cart, auth);
 }
 
-// /src/main.ts
-
 function showProductDetailModal(product: Producto) {
-  // Búsqueda de elementos justo cuando se necesitan
   const productModal = document.getElementById(
     "product-detail-modal"
   ) as HTMLDivElement;
-  // Buscamos el nuevo contenedor de imágenes en lugar de la imagen única
   const imagesContainer = document.getElementById(
     "modal-product-images-container"
   ) as HTMLDivElement;
@@ -63,20 +57,15 @@ function showProductDetailModal(product: Producto) {
     return;
   }
 
-  // --- LÓGICA ACTUALIZADA PARA LAS IMÁGENES ---
-  // 1. Limpiamos el contenedor por si tenía imágenes de un producto anterior
   imagesContainer.innerHTML = "";
-  // 2. Creamos el HTML para cada imagen en el array
   const imagesHTML = product.imagenes
     .map(
       (url) => `
-    <img src="${url}" alt="Imagen de ${product.nombre}" class="w-full h-auto object-cover rounded-lg">
+    <img src="${url}" alt="Imagen de ${product.nombre}" class="w-full h-48 object-fit rounded-lg">
   `
     )
     .join("");
-  // 3. Insertamos el HTML generado en el contenedor
   imagesContainer.innerHTML = imagesHTML;
-  // --- FIN DE LA LÓGICA ACTUALIZADA ---
 
   modalTitle.textContent = product.nombre;
   modalDesc.textContent =
@@ -91,11 +80,9 @@ function showProductDetailModal(product: Producto) {
   productModal.classList.remove("hidden");
 }
 
-// --- Lógica de Eventos ---
 document.addEventListener("click", (event) => {
   const target = event.target as HTMLElement;
 
-  // --- Lógica para abrir/cerrar el carrito lateral ---
   const cartAside = document.getElementById("shopping-cart-aside");
   const cartOverlay = document.getElementById("cart-overlay");
   const openCart = () => {
@@ -122,7 +109,6 @@ document.addEventListener("click", (event) => {
     closeCart();
   }
 
-  // --- Lógica para los Modales ---
   if (target.closest(".product-card")) {
     const productId = parseInt(
       (target.closest(".product-card") as HTMLElement).dataset.productId!
@@ -147,7 +133,6 @@ document.addEventListener("click", (event) => {
     }
   }
 
-  // --- Lógica para modificar items del carrito ---
   if (target.matches(".increment-btn")) {
     const { productId, plataforma } = target.dataset;
     if (productId && plataforma)
@@ -178,7 +163,6 @@ document.addEventListener("click", (event) => {
     paymentMethod.classList.add("bg-gray-700", "border-blue-500");
   }
 
-  // --- Lógica del Flujo de Compra ---
   if (target.matches("#checkout-btn") && !target.hasAttribute("disabled")) {
     const paymentModal = document.getElementById("payment-modal");
     const paymentTotalEl = document.getElementById("payment-total");
@@ -203,7 +187,6 @@ document.addEventListener("click", (event) => {
     }
   }
 
-  // --- Lógica de Autenticación y Cierre de Modales ---
   if (target.matches("#login-modal-btn"))
     document.getElementById("login-modal")?.classList.remove("hidden");
   if (target.matches("#register-modal-btn"))
@@ -217,14 +200,16 @@ document.addEventListener("click", (event) => {
   }
 });
 
-// Los listeners de formularios de login/registro no cambian, pero es mejor buscar los elementos aquí
 const loginForm = document.getElementById("login-form") as HTMLFormElement;
 if (loginForm) {
   loginForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const email = (document.getElementById("login-email") as HTMLInputElement)
       .value;
-    if (auth.login(email)) {
+    const password = (
+      document.getElementById("login-password") as HTMLInputElement
+    ).value;
+    if (auth.login(email, password)) {
       document.getElementById("login-modal")?.classList.add("hidden");
       loginForm.reset();
       updateUI();
@@ -244,12 +229,23 @@ if (registerForm) {
     const email = (
       document.getElementById("register-email") as HTMLInputElement
     ).value;
-    if (auth.register(nombre, email)) {
+    const password = (
+      document.getElementById("register-password") as HTMLInputElement
+    ).value;
+    const confirmPassword = (
+      document.getElementById("register-confirm-password") as HTMLInputElement
+    ).value;
+
+    if (password !== confirmPassword) {
+      alert("Las contraseñas no coinciden.");
+      return;
+    }
+
+    if (auth.register(nombre, email, password)) {
       document.getElementById("register-modal")?.classList.add("hidden");
       registerForm.reset();
     }
   });
 }
 
-// --- Iniciar la Aplicación ---
 document.addEventListener("DOMContentLoaded", initApp);

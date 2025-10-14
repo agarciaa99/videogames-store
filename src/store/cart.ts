@@ -4,7 +4,6 @@ export class Cart {
   private items: CartItem[] = [];
 
   constructor() {
-    // Cargar carrito desde localStorage si existe
     const storedCart = localStorage.getItem("shopping_cart");
     if (storedCart) {
       this.items = JSON.parse(storedCart);
