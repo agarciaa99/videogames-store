@@ -109,6 +109,13 @@ document.addEventListener("click", (event) => {
     closeCart();
   }
 
+  if (target.closest("#hamburger-btn")) {
+    const mobileMenu = document.getElementById("mobile-menu");
+    if (mobileMenu) {
+      mobileMenu.classList.toggle("hidden");
+    }
+  }
+
   if (target.closest(".product-card")) {
     const productId = parseInt(
       (target.closest(".product-card") as HTMLElement).dataset.productId!
