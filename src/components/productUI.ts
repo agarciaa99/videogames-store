@@ -1,10 +1,6 @@
-// /src/components/productUI.ts
 import type { Producto } from "../types/interfaces.js";
 
 function createProductCard(producto: Producto): string {
-  // La clave está en esta primera línea del return:
-  // 1. data-product-id: Guarda el ID del juego.
-  // 2. class="product-card": Le da la clase que el main.ts necesita para detectar el clic.
   return `
         <div data-product-id="${
           producto.id
