@@ -61,7 +61,7 @@ export function renderCart(cart: Cart, auth: Auth): void {
   cartContainer.innerHTML =
     items.length > 0
       ? items.map(createCartItemHTML).join("")
-      : '<p class="text-gray-400 text-center">Tu carrito está vacío.</p>';
+      : '<p class="text-gray-400 text-center">No hay nada por aquí...</p>';
 
   const total = cart.getTotal();
   cartTotalEl.textContent = total.toFixed(2);
